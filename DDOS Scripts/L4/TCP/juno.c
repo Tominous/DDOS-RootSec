@@ -267,7 +267,7 @@ int main(int argc,char *argv[]) {
    signal(SIGILL,&sig_proc);
    signal(SIGABRT,&sig_proc);
    signal(SIGFPE,&sig_proc);
-//   signal(SIGKILL,&sig_proc);
+   signal(SIGKILL,&sig_proc);
    signal(SIGSEGV,&sig_proc);
    signal(SIGPIPE,&sig_proc);
    signal(SIGALRM,&sig_proc);
@@ -276,7 +276,7 @@ int main(int argc,char *argv[]) {
    signal(SIGUSR2,&sig_proc);
    signal(SIGCHLD,&sig_proc);
    signal(SIGCONT,&sig_proc);
-//   signal(SIGSTOP,&sig_proc);
+   signal(SIGSTOP,&sig_proc);
    signal(SIGTSTP,&sig_proc);
    signal(SIGTTIN,&sig_proc);
    signal(SIGTTOU,&sig_proc);
