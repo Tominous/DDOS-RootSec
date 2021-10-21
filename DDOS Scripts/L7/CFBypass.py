@@ -62,7 +62,7 @@ function bypassyourdog($domain, $useragent, $proxy) {
 	$mathtotal = 0;
 	$answers = array();
 	$totalformath1 = 0;
-	//echo "Domain: $domain\nJSCHL_VC: $jschl_vc\nPASS: $pass\nSet Timeout: $settimeout\n";
+	echo "Domain: $domain\nJSCHL_VC: $jschl_vc\nPASS: $pass\nSet Timeout: $settimeout\n";
 	if($pass == NULL) {
 		file_put_contents('log.txt', $string, FILE_APPEND);
 	}
